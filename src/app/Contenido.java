@@ -15,7 +15,9 @@ public class Contenido {
     public List<String> premios = new ArrayList<>();
     public List<Genero> genero = new ArrayList<>();
     public List<Actor> actores = new ArrayList<>();
+    public int calificacion;
 
+    
     public boolean visto() {
         return false;
 
