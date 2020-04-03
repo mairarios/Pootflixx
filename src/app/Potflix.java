@@ -94,6 +94,31 @@ public class Potflix {
         t3.episodios.add(epiii);
         theWalkingDead.temporadas.add(t3);
 
+        
+        Websodio websodio = new Websodio();
+
+        websodio.numero = 1;
+        websodio.nombre = "A new day";
+        websodio.duracion = 20;
+        websodio.url = "http://fdjfd.com";
+
+        t3.episodios.add(websodio);
+
+        websodio = new Websodio();
+
+        websodio.numero = 2;
+        websodio.nombre = "Alone";
+        websodio.duracion = 20;
+        websodio.url = "http://jfdj.com";
+
+        t3.episodios.add(websodio);
+
+        theWalkingDead.temporadas.add(t3);
+        
+        this.series.add(theWalkingDead);
+
+
+
     }
 
     public Contenido buscarPorTitulo(String titulo) {

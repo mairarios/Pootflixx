@@ -8,6 +8,7 @@ public class Episodio {
     public double duracion;
     public String nombre;
     public int numero;
+    
 
     public void reproducir(){
 
