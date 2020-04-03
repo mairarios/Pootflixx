@@ -43,6 +43,57 @@ public class Potflix {
 
         this.series.add(breakingB);
 
+        Serie theWalkingDead = new Serie();
+        theWalkingDead.titulo = "The Walking Dead";
+
+        genero = new Genero();
+        genero.nombre = "Ficción, Drama, Apocaliptico";
+        theWalkingDead.genero.add(genero);
+
+        Temporada t2 = new Temporada ();
+        t2.numero = 2;
+
+        Episodio epi = new Episodio();
+
+        epi.numero = 1;
+        epi.nombre = "What lies ahead";
+        epi.duracion = 45;
+
+        t2.episodios.add(epi);
+
+        Episodio epiOtro = new Episodio();
+
+        epiOtro.numero = 2;
+        epiOtro.nombre = "Bloodletting";
+        epiOtro.duracion = 44;
+
+        
+        t2.episodios.add(epiOtro);
+        theWalkingDead.temporadas.add(t2);
+
+        this.series.add(theWalkingDead);
+
+
+        Temporada t3 = new Temporada();
+        t3.numero = 3;
+
+        Episodio epii = new Episodio();
+
+        epii.numero = 8;
+        epii.nombre = "Made to suffer";
+        epii.duracion= 43;
+
+        t3.episodios.add(epii);
+        theWalkingDead.temporadas.add(t3);
+
+        Episodio epiii = new Episodio();
+        epiii.numero= 9;
+        epiii.nombre= "The Suicide King";
+        epiii.duracion = 48;
+
+        t3.episodios.add(epiii);
+        theWalkingDead.temporadas.add(t3);
+
     }
 
     public Contenido buscarPorTitulo(String titulo) {
