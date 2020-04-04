@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Potflix
  */
-public class Potflix {
+public class Pooflix {
 
     public List<Pelicula> peliculas = new ArrayList<>();
     public List<Serie> series = new ArrayList<>();
