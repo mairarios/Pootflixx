@@ -61,11 +61,9 @@ public class Pooflix {
 
         t2.episodios.add(epi);
 
-        Episodio epiOtro = new Episodio();
+        Episodio epiOtro = new Episodio(2, "Bloodletting", 44);
 
-        epiOtro.numero = 2;
-        epiOtro.nombre = "Bloodletting";
-        epiOtro.duracion = 44;
+        
 
         
         t2.episodios.add(epiOtro);
@@ -77,10 +75,8 @@ public class Pooflix {
         Temporada t3 = new Temporada();
         t3.numero = 3;
 
-        Episodio epii = new Episodio();
+        Episodio epii = new Episodio(8, "Made to suffer");
 
-        epii.numero = 8;
-        epii.nombre = "Made to suffer";
         epii.duracion= 43;
 
         t3.episodios.add(epii);
@@ -95,19 +91,17 @@ public class Pooflix {
         theWalkingDead.temporadas.add(t3);
 
         
-        Websodio websodio = new Websodio();
+        Websodio websodio = new Websodio(1, "A new day");
 
-        websodio.numero = 1;
-        websodio.nombre = "A new day";
+      
         websodio.duracion = 20;
         websodio.url = "http://fdjfd.com";
 
         t3.episodios.add(websodio);
 
-        websodio = new Websodio();
+        websodio = new Websodio(2, "Alone");
 
-        websodio.numero = 2;
-        websodio.nombre = "Alone";
+        
         websodio.duracion = 20;
         websodio.url = "http://jfdj.com";
 
