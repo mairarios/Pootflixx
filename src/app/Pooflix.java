@@ -25,17 +25,17 @@ public class Pooflix {
 
         Episodio ep = new Episodio();
 
-        ep.numero = 7;
-        ep.nombre = "Say my name";
-        ep.duracion = 43;
+        ep.setNumero(7);
+        ep.setNombre("Say my name");
+        ep.setDuracion(43);
 
         t5.episodios.add(ep);
 
         Episodio epOtro = new Episodio();
 
-        epOtro.numero = 5;
-        epOtro.nombre = "Ozymandias";
-        epOtro.duracion = 41;
+        epOtro.setNumero(5);
+        epOtro.setNombre("Ozymandias");
+        epOtro.setDuracion(41);
 
         t5.episodios.add(epOtro);
 
@@ -50,68 +50,59 @@ public class Pooflix {
         genero.nombre = "Ficción, Drama, Apocaliptico";
         theWalkingDead.genero.add(genero);
 
-        Temporada t2 = new Temporada ();
+        Temporada t2 = new Temporada();
         t2.numero = 2;
 
         Episodio epi = new Episodio();
 
-        epi.numero = 1;
-        epi.nombre = "What lies ahead";
-        epi.duracion = 45;
+        epi.setNumero(1);
+        epi.setNombre("What lies ahead");
+        epi.setDuracion(45);
 
         t2.episodios.add(epi);
 
         Episodio epiOtro = new Episodio(2, "Bloodletting", 44);
 
-        
-
-        
         t2.episodios.add(epiOtro);
         theWalkingDead.temporadas.add(t2);
 
         this.series.add(theWalkingDead);
-
 
         Temporada t3 = new Temporada();
         t3.numero = 3;
 
         Episodio epii = new Episodio(8, "Made to suffer");
 
-        epii.duracion= 43;
+        epii.setDuracion(43);
 
         t3.episodios.add(epii);
         theWalkingDead.temporadas.add(t3);
 
         Episodio epiii = new Episodio();
-        epiii.numero= 9;
-        epiii.nombre= "The Suicide King";
-        epiii.duracion = 48;
+        epiii.setNumero(9);
+        epiii.setNombre("The Suicide King");
+        epiii.setDuracion(48);
 
         t3.episodios.add(epiii);
         theWalkingDead.temporadas.add(t3);
 
-        
         Websodio websodio = new Websodio(1, "A new day");
 
-      
-        websodio.duracion = 20;
+        websodio.setDuracion(20);
         websodio.url = "http://fdjfd.com";
 
         t3.episodios.add(websodio);
 
         websodio = new Websodio(2, "Alone");
 
-        
-        websodio.duracion = 20;
+        websodio.setDuracion(20);
         websodio.url = "http://jfdj.com";
 
         t3.episodios.add(websodio);
 
         theWalkingDead.temporadas.add(t3);
-        
+
         this.series.add(theWalkingDead);
-
-
 
     }
 
@@ -126,7 +117,7 @@ public class Pooflix {
             if (s.titulo.equals(titulo))
                 return s;
         }
-    return null;
+        return null;
     }
 
     public Pelicula buscarPelicula(String titulo) {
