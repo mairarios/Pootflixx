@@ -5,8 +5,14 @@ package app;
  */
 public class Persona {
 
-    public String nombre;
-    
+    private String datos;
 
-    
+    public String getDatos() {
+        return datos;
+
+    }
+
+    public void setDatos(String Datos) {
+        this.datos = Datos;
+    }
 }

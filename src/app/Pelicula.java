@@ -5,6 +5,17 @@ package app;
  */
 public class Pelicula extends Contenido {
 
+    private String pelicula;
+
+    public String getPelicula() {
+        return pelicula;
+    }
+
+    public void setPelicula(String pelicula){
+        this.pelicula = pelicula;
+    }
+
+
     public boolean filmadaEnImax(){
         return false;
 

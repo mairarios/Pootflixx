@@ -5,5 +5,15 @@ package app;
  */
 public class Director {
 
-    public String estilo;
+    private String estilo;
+
+    public String getEstilo() {
+        return estilo;
+    }
+    public void setEstilo(String Estilo) {
+        this.estilo = Estilo;
+    }
 }
+
+
+

@@ -17,7 +17,6 @@ public class Contenido {
     public List<Actor> actores = new ArrayList<>();
     public int calificacion;
 
-    
     public boolean visto() {
         return false;
 

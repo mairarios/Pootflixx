@@ -17,7 +17,7 @@ public class Pooflix {
         breakingB.titulo = "Breaking Bad";
 
         Genero genero = new Genero();
-        genero.nombre = "Drama";
+        genero.setNombre("Drama");
         breakingB.genero.add(genero);
 
         Temporada t5 = new Temporada();
@@ -47,7 +47,7 @@ public class Pooflix {
         theWalkingDead.titulo = "The Walking Dead";
 
         genero = new Genero();
-        genero.nombre = "Ficción, Drama, Apocaliptico";
+        genero.setNombre("Ficción, Drama, Apocaliptico");
         theWalkingDead.genero.add(genero);
 
         Temporada t2 = new Temporada();
@@ -89,14 +89,14 @@ public class Pooflix {
         Websodio websodio = new Websodio(1, "A new day");
 
         websodio.setDuracion(20);
-        websodio.url = "http://fdjfd.com";
+        websodio.setUrl("http://fdjfd.com");
 
         t3.episodios.add(websodio);
 
         websodio = new Websodio(2, "Alone");
 
         websodio.setDuracion(20);
-        websodio.url = "http://jfdj.com";
+        websodio.setUrl("http://jfdj.com");
 
         t3.episodios.add(websodio);
 
