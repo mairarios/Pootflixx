@@ -10,9 +10,8 @@ public class Pooflix {
 
     public List<Pelicula> peliculas = new ArrayList<>();
     public List<Serie> series = new ArrayList<>();
-    public List<Actor> actor = new ArrayList<>();
-    public List<Director> director = new ArrayList<>();
-
+    
+    
     public void inicializarCatalogo() {
 
         Serie breakingB = new Serie();
@@ -22,10 +21,13 @@ public class Pooflix {
         genero.setNombre("Drama");
         breakingB.genero.add(genero);
 
-        Actor actor = new Actor();
-        actor.setDatos("Bryan Cranston");
-        actor.setDatos("Aaron Paul");
-        breakingB.actores.add(actor);
+        Actor actor1 = new Actor();
+        actor1.setDatos("Bryan Cranston");
+        breakingB.actores.add(actor1);
+
+        Actor actor2 = new Actor();
+        actor2.setDatos("Aaron Paul");
+        breakingB.actores.add(actor2);
 
         Director director = new Director();
         director.setDirector("Vince Gilligan");
@@ -62,13 +64,13 @@ public class Pooflix {
         genero.setNombre("Ficción, Drama, Apocaliptico");
         theWalkingDead.genero.add(genero);
 
-        actor = new Actor();
-        actor.setDatos("Andrew Lincoln");
-        theWalkingDead.actores.add(actor);
+        Actor actor3 = new Actor();
+        actor3.setDatos("Andrew Lincoln");
+        theWalkingDead.actores.add(actor3);
 
-        actor = new Actor();
-        actor.setDatos("Norman Reedus");
-        theWalkingDead.actores.add(actor);
+        Actor actor4 = new Actor();
+        actor4.setDatos("Norman Reedus");
+        theWalkingDead.actores.add(actor4);
 
         director = new Director();
         director.setDirector("Frank Darabont");
