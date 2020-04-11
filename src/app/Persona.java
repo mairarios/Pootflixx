@@ -1,8 +1,5 @@
 package app;
 
-/**
- * Persona
- */
 public class Persona {
 
     private String datos;

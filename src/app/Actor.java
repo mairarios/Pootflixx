@@ -1,8 +1,5 @@
 package app;
 
-/**
- * Actor
- */
 public class Actor extends Persona {
 
     private String nivel;
@@ -10,10 +7,10 @@ public class Actor extends Persona {
     public String getNivel() {
         return nivel;
     }
-    public void setNivel(String Nivel){
+
+    public void setNivel(String Nivel) {
         this.nivel = Nivel;
     }
+
     
 }
-
-
