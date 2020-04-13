@@ -11,8 +11,8 @@ public class Temporada {
     public List<Episodio> episodios = new ArrayList<>();
 
     /**
-Obtiene un episodio en base a su numero de episodio
-     
+     * Obtiene un episodio en base a su numero de episodio
+     * 
      * @param nro
      * @return
      */

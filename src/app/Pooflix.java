@@ -140,7 +140,7 @@ public class Pooflix {
     public Serie buscarPorSerie(String titulo) {
 
         for (Serie s : this.series) {
-            if (s.titulo.equals(titulo))
+            if (s.getTitulo().equals(titulo))
                 return s;
         }
         return null;
