@@ -10,6 +10,16 @@ public class Temporada {
     public int numero;
     public List<Episodio> episodios = new ArrayList<>();
 
+    
+    public Temporada(){
+
+    }
+
+    public Temporada(int numero){
+        this.numero = numero;
+    }
+    
+    
     /**
      * Obtiene un episodio en base a su numero de episodio
      * 

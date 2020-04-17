@@ -4,6 +4,14 @@ public abstract class Persona {
 
     private String datos;
 
+    public Persona() {
+
+    }
+
+    public Persona(String datos) {
+        this.datos = datos;
+    }
+
     public String getDatos() {
         return datos;
 

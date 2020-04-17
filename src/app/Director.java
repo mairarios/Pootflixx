@@ -5,6 +5,16 @@ public class Director {
 
 
     private String director;
+
+
+    public Director(){
+
+    }
+
+    public Director(String director){
+        this.director = director;
+    }
+    
     public String getDirector(){
         return director;
     }

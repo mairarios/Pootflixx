@@ -4,6 +4,14 @@ public class Actor extends Persona {
 
     private String nivel;
 
+    public Actor() {
+
+    }
+
+    public Actor(String nivel) {
+        this.nivel = nivel;
+    }
+
     public String getNivel() {
         return nivel;
     }
@@ -12,5 +20,4 @@ public class Actor extends Persona {
         this.nivel = Nivel;
     }
 
-    
 }

@@ -6,7 +6,8 @@ import java.util.List;
 public class Serie extends Contenido {
 
     public List<Temporada> temporadas = new ArrayList<>();
-
+ 
+    
     public Temporada getTemporada(int nro) {
 
         for (Temporada tempo : this.temporadas) {
